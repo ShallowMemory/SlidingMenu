@@ -1,9 +1,7 @@
 package com.shcx.sreader.activity;
 
 import android.support.v4.app.Fragment;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.util.Log;
 import android.widget.Toast;
 
 import com.jeremyfeinstein.slidingmenu.lib.SlidingMenu;
@@ -11,7 +9,6 @@ import com.jeremyfeinstein.slidingmenu.lib.app.SlidingFragmentActivity;
 import com.shcx.sreader.R;
 import com.shcx.sreader.fragment.MainFragment;
 import com.shcx.sreader.fragment.MenuFragment;
-import com.shcx.sreader.fragment.dummy.DummyContent;
 import com.shcx.sreader.interf.OnListFragmentInteractionListener;
 
 public class MainActivity extends SlidingFragmentActivity implements OnListFragmentInteractionListener {
